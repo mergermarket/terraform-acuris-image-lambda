@@ -3,7 +3,7 @@ terraform {
 }
 
 resource "aws_lambda_function" "lambda_function" {
-  image_uri                      = var.image_uri != "" ? var.image_uri : null
+  image_uri                      = var.image_uri
   function_name                  = var.function_name
   role                           = aws_iam_role.iam_for_lambda.arn
   timeout                        = var.timeout

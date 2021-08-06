@@ -4,7 +4,6 @@ variable "function_name" {
 
 variable "image_uri" {
   description = "Required for image based lambda"
-  default     = ""
 }
 
 variable "image_config_command" {
