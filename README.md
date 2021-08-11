@@ -26,7 +26,7 @@ This module will deploy an image based Lambda function.
 
 ```hcl
 module "lambda" {
-  source        = "github.com/mergermarket/terraform-pi-aws-image-lambda"
+  source        = "github.com/mergermarket/terraform-aws-image-lambda"
   image_uri     = "foo_uri_to_ECR_image"
   function_name = "do_foo"
   timeout       = 5
