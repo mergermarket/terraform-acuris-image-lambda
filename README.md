@@ -8,7 +8,7 @@ This module will deploy an image based Lambda function.
 - `image_uri` - (string) - **REQUIRED** - Uri to the image in ECR repo.
 - `image_config_command` - (list) - List of values with which to override CMD entry in the image.
 - `image_config_entry_point` - (list) - List of values with which to override ENTRYPOINT entry in the image.
-- `image_config_working_directory` - (string) - Values with which to override WORKDIR entry in the image.
+- `image_config_working_directory` - (string) - Value with which to override WORKDIR entry in the image.
 - `lambda_env` - (map) - Environment parameters passed to the Lambda function
 - `lambda_role_policy` (string) - The Lambda IAM Role Policy.
 - `log_subscription_filter` - (string) - Subscription filter to filter logs sent to datadog
